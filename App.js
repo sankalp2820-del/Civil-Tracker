@@ -137,6 +137,7 @@ export default function App() {
               Add
             </button>
           </div>
+
           <ul className="mt-2 text-sm text-gray-700">
             {job.manpower.map((entry, i) => (
               <li key={i}>
@@ -149,4 +150,3 @@ export default function App() {
     </div>
   );
 }
-
